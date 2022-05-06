@@ -1,6 +1,39 @@
+/*Estilos generales*/
 html{
     scroll-behavior: smooth;
 }
-main{
-    height: 100%;
+
+*::selection{
+    background: #579EFA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+
+/*Estilos específicos*/
+.landing_card{
+    height: 98vh;
+    background: linear-gradient(to bottom, #15253B,#345D94 ,#579EFA);
+    margin: 1vh;
+    border-radius: 20px;
+    /*overflow: hidden; Esto esta interesante ya que si pones un borde redondeado
+    y el contendio dentro de la etiqueta sobresaldría dobre el borde redondeado, 
+    el contenido se corta hasta donde llegue el borde*/
+
+}
+.logo_header{
+    background-color: white;
+    width: 250px;
+    height: fit-content;
+    border-radius: 0 20px 20px 0;
+    position: relative;
+    top: 5vh;
+    text-align: center; /*El text align center sirve ya que es un div*/
+}
+.img_logo_header{
+    width: 7vw;
+
 }
