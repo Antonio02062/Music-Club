@@ -26,14 +26,32 @@ html{
 }
 .logo_header{
     background-color: white;
-    width: 250px;
+    width: 200px;
     height: fit-content;
     border-radius: 0 20px 20px 0;
     position: relative;
+    display: inline-block;
+    top: 5vh;
+    border: 1px #000 solid;
+    text-align: center; /*El text align center sirve ya que es un div*/
+}
+
+.menu_header{
+    background-color: white;
+    height: fit-content;
+    border-radius: 20px 0 0 20px;
+    position: relative;
+    display: inline-block;
+    float: right;
+    font-family: "Arial";
     top: 5vh;
     text-align: center; /*El text align center sirve ya que es un div*/
 }
+
+ul{
+    display: inline;
+    border: #000 solid 1px;
+}
 .img_logo_header{
     width: 7vw;
-
 }
