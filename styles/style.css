@@ -100,10 +100,25 @@ section.Album_Cover img:hover{
 }
 
 .Conocenos{
-    font-size: large;
-    color: white;
-    padding: 5vh 10vw;
-    border: solid 1px black;
-    width: fit-content;
-    background: linear-gradient(to bottom, #15253B,#345D94 ,#579EFA);
+    padding: 5vh 10vw 5vh 3vw;
+}
+.conocenos_Title{
+    display: block;
+    font-size: 30px;
+    color: #345D94;
+}
+
+.conocenos_text{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 5vh;
+    width: 50vw;
+    font-weight: 300;
+}
+.Conocenos img{
+    width: 20vw;
+    position: relative;
+    float: right;
+    transform: rotate(-10deg);
+    border-radius: 20px;
 }
